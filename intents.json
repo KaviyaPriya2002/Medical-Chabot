@@ -1,0 +1,293 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Hi there",
+        "Hello there",
+        "Good day",
+        "no",
+        "Thank you"
+      ],
+      "responses": [
+        "Hi! I'm your virtual assistant here at Pediatric Associates of Frisco. How can I help you today? Please choose an option below to start your journey"
+      ],
+      "options": [
+        "New patient inquiry",
+        "Existing patient help",
+        "Frequently asked questions(FAQs)",
+        "I'd like to send an SMS/Text to practice"
+      ]
+    },
+    {
+      "tag": "New patient inquiry",
+      "patterns": [
+        "New patient inquiry"
+      ],
+      "responses": [
+        "How can I help you today? Please choose an option below to start your journey"
+      ],
+      "options": [
+        "Your open hours?",
+        "Your services?",
+        "request an appointment",
+        "I want to ask a specific question"
+      ]
+    },
+    {
+      "tag": "Your open hours",
+      "patterns": [
+        "Your open hours?"
+      ],
+      "responses": [
+        "We are currently open 6 days a week.<br><br><a href=\"https://www.pediatricsfrisco.com/hours\">Click here for detailed open hours</a>"
+      ],
+      "options": [
+        "Thank you"
+      ]
+    },
+    {
+      "tag": "Your services?",
+      "patterns": [
+        "Your services?"
+      ],
+      "responses": [
+        "Dr. Sree, M.D. and her experienced team offer a full array of services such as vision screening, newborn care, same-day sick visits, developmental screening, integrative medicine, free prenatal visits, and many more!<br><br>Would you like more details about our services?"
+      ],
+      "options": [
+        "yes",
+        "No",
+        "I'd like to call the practice",
+        "I'd like to get directions",
+        "Thank you"
+      ]
+    },
+    {
+      "tag": "like to call the practice",
+      "patterns": [
+        "like to call the practice"
+      ],
+      "responses": [
+        "You would like to call the practice.<br><br><a href=\"https://www.pediatricsfrisco.com/quick-call\">Call Us</a>"
+      ],
+      "options": [
+        "Thank you"
+      ]
+    },
+    {
+      "tag": "details of",
+      "patterns": [
+        "details of yes",
+        "yes"
+      ],
+      "responses": [
+        "Please click below for details of services"
+      ],
+      "options": [
+        "<a href=\"https://www.pediatricsfrisco.com/services\">Click here</a>",
+        "Thank you"
+      ]
+    },
+    {
+      "tag": "get directions",
+      "patterns": [
+        "get directions",
+        "yes"
+      ],
+      "responses": [
+        "Take me to the directions page<br><br><a href=\"https://www.pediatricsfrisco.com/get-directions\">Take me to directions page</a>"
+      ],
+      "options": [
+        "Thank you"
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "Request an appointment"
+      ],
+      "responses": [
+        "Take me to appointment<br><br><a href=\"https://www.pediatricsfrisco.com/appointments\">Take me to appointment</a>"
+      ],
+      "options": [
+        "Thank you"
+      ]
+    },
+    {
+      "tag": "Existing patient help",
+      "patterns": [
+        "Existing patient help"
+      ],
+      "responses": [
+        "How can I help you today? Please choose an option below to start your journey"
+      ],
+      "options": [
+        "Provide feedback",
+        "Billing question",
+        "Insurance question",
+        "request an appointment",
+        "Frequently asked questions (FAQs)"
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "feedback Provided",
+        "provide feedback for pediatric",
+        "feedback for pediatric"
+      ],
+      "responses": [
+        "Provide feedback<br><br><a href=\"https://www.pediatricsfrisco.com/feedback\">Click Here</a>"
+      ],
+      "options": [
+        "Thank you"
+      ]
+    },
+    {
+      "tag": "Billing question",
+      "patterns": [
+        "Billing question"
+      ],
+      "responses": [
+        "<a href=\"https://www.pediatricsfrisco.com/billing-questions\">Click Here</a>"
+      ],
+      "options": [
+        "Thank you"
+      ]
+    },
+    {
+      "tag": "Insurance question",
+      "patterns": [
+        "Insurance question"
+      ],
+      "responses": [
+        "<a href=\"https://www.pediatricsfrisco.com/insurance-question\">Click Here</a>"
+      ],
+      "options": [
+        "Thank you"
+      ]
+    },
+    {
+      "tag": "Frequently asked questions (FAQs)",
+      "patterns": [
+        "Frequently asked questions (FAQs)"
+      ],
+      "responses": [
+        "Here are the questions we get asked most often by new and long-time patients!"
+      ],
+      "options": [
+        "Do You accept non-insured patients?",
+        "What makes you unique or stand out?",
+        "Where is Pediatric Associates of Frisco located?",
+        "I want to ask a specific question",
+        "Thank you"
+      ]
+    },
+    {
+      "tag": "Do You accept non-insured patients",
+      "patterns": [
+        "Do You accept non-insured patients?"
+      ],
+      "responses": [
+        "Self pay are welcome. If you would like to schedule an appointment, then please click here. <br><br><a href=\"https://www.pediatricsfrisco.com/appointments\">Click Here</a>"
+      ],
+      "options": [
+        "Thank you"
+      ]
+    },
+    {
+      "tag": "unique or stand out",
+      "patterns": [
+        "What makes you unique or stand out?"
+      ],
+      "responses": [
+        "Dr. Sree, M.D. and her experienced team offers a full array of services such as vision screening, newborn care, same day sick visits, developmental screening, integrative medicine, free prenatal visits and many more!<br><br>        \"<a href=\"https://www.pediatricsfrisco.com/meet-our-doctor\">Click Here</a>"
+      ],
+      "options": [
+        "Thank you"
+      ]
+    },
+    {
+      "tag": "Where is Pediatric Associates of Frisco located",
+      "patterns": [
+        "Where is Pediatric Associates of Frisco located?"
+      ],
+      "responses": [
+        "Pediatric Associates of Frisco is conveniently located at 9191 Kyser Way, Suite 500, Frisco, TX 75033.<br><br>Would you like to get directions?"
+      ],
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "tag": "specific question",
+      "patterns": [
+        "I want to ask a specific question"
+      ],
+      "responses": [
+        "Please enter your question below"
+      ],
+      "options": []
+    },
+    {
+      "tag": "question",
+      "patterns": [
+        "Please enter your question below"
+      ],
+      "responses": [
+        "Noted<br><br>I'll get this over to the rest of the team here, and get back to you as soon as possible.<br><br>First off, may I have your first name please?"
+      ],
+      "options": []
+    },
+    {
+      "tag": "name",
+      "patterns": [],
+      "responses": [
+        "May I have your last name please?"
+      ],
+      "options": []
+    },
+    {
+      "tag": "email",
+      "patterns": [],
+      "responses": [
+        "Please enter your email."
+      ],
+      "options": []
+    },
+    {
+      "tag": "phone",
+      "patterns": [
+        "phone number"
+      ],
+      "responses": [
+        "In order for us to reach you, what's your best phone number?"
+      ],
+      "options": []
+    },
+    {
+      "tag": "number",
+      "patterns": [],
+      "responses": [
+        "Thank you for your information. We will contact you shortly."
+      ],
+      "options": []
+    },
+    {
+      "tag": "I'd like to send an SMS/Text to practice",
+      "patterns": [
+        "I'd like to send an SMS/Text to practice"
+      ],
+      "responses": [
+        "Send an SMS/Text to practice.<br><br> <a href=\"https://www.pediatricsfrisco.com/services\">Click Here</a>"
+      ],
+      "options": [
+        "Thank you"
+      ]
+    }
+  ]
+}
